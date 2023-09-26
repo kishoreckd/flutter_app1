@@ -10,19 +10,11 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('My first app'),
-        backgroundColor: Colors.red[600],
+        backgroundColor: Colors.red,
       ),
-      body:  Center(
-      //     child: Text(
-      //   'Vadakkan',
-      //   style: TextStyle(
-      //       fontSize: 26,
-      //       fontWeight: FontWeight.bold,
-      //       letterSpacing: 2.0,
-      //       color: Color.fromARGB(255, 158, 156, 156),
-      //       fontFamily: 'montserrat'),
-      // )-- used for text
-      child: Image.network('https://wallpapers.com/images/featured/mobile-58g8gv3r23zg29kw.jpg')
+      body: const Padding(
+        padding: EdgeInsets.all(90.0),
+        child: Text('hello'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
