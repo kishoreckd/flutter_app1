@@ -12,8 +12,9 @@ class Home extends StatelessWidget {
         title: const Text('My first app'),
         backgroundColor: Colors.red,
       ),
-      body: Row(
+      body: Column(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
+        crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const Text('hello'),
           TextButton(
