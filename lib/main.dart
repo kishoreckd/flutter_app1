@@ -12,20 +12,17 @@ class Home extends StatelessWidget {
         title: const Text('My first app'),
         backgroundColor: Colors.red[600],
       ),
-      body: const Center(
-        //     child: Text(
-        //   'Vadakkan',
-        //   style: TextStyle(
-        //       fontSize: 26,
-        //       fontWeight: FontWeight.bold,
-        //       letterSpacing: 2.0,
-        //       color: Color.fromARGB(255, 158, 156, 156),
-        //       fontFamily: 'montserrat'),
-        // )-- used for text
-        child: Image(
-          image: NetworkImage(
-              'https://wallpapers.com/images/featured/mobile-58g8gv3r23zg29kw.jpg'),
-        ),
+      body:  Center(
+      //     child: Text(
+      //   'Vadakkan',
+      //   style: TextStyle(
+      //       fontSize: 26,
+      //       fontWeight: FontWeight.bold,
+      //       letterSpacing: 2.0,
+      //       color: Color.fromARGB(255, 158, 156, 156),
+      //       fontFamily: 'montserrat'),
+      // )-- used for text
+      child: Image.network('https://wallpapers.com/images/featured/mobile-58g8gv3r23zg29kw.jpg')
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
